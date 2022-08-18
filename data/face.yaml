@@ -1,0 +1,7 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: ../face/images/wider_train/
+val: ../face/images/wider_val/
+# number of classes
+nc: 1
+# class names
+names: ['face']

@@ -1,0 +1,38 @@
+{
+    "os": "Windows-10-10.0.19042-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-08-18T06:51:33.941292",
+    "startedAt": "2022-08-18T06:51:32.592417",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [
+        "--img",
+        "416",
+        "416",
+        "--batch",
+        "16",
+        "--epochs",
+        "100",
+        "--data",
+        "../test/dataset/face_yolov5pytorch2/data.yaml",
+        "--weights",
+        "''",
+        "--cfg",
+        "models/yolov5n_.yaml"
+    ],
+    "state": "running",
+    "program": "D:\\eunicewang0226\\dataset\\yolov5\\train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5",
+        "commit": "7b9cc3205ae2cd9fdb0a56ca2818e17c5ae8346e"
+    },
+    "email": null,
+    "root": "D:/eunicewang0226/dataset/yolov5",
+    "host": "Q050190101",
+    "username": "eunicewang0226",
+    "executable": "C:\\Users\\eunicewang0226\\Anaconda3\\envs\\yolov5\\python.exe"
+}
